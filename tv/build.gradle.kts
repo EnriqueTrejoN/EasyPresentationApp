@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.uts.easypresentationapp"
+    namespace = "com.uts.tv"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,13 +12,12 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.uts.easypresentationapp"
-        minSdk = 24
+        applicationId = "com.uts.tv"
+        minSdk = 21
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -42,17 +41,17 @@ android {
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
-    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.appcompat)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    testImplementation(libs.junit)
+    implementation(libs.androidx.media3.ui.compose)
+    implementation(libs.androidx.tv.foundation)
+    implementation(libs.androidx.tv.material)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
-    androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
     implementation(project(":shared"))
