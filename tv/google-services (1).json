@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "764390159988",
+    "project_id": "easypresentation-e60c5",
+    "storage_bucket": "easypresentation-e60c5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764390159988:android:e2481351b76cbc6f5ac321",
+        "android_client_info": {
+          "package_name": "com.uts.easypresentationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSauy7JgLEII96KnBgwYQgTFR54GpPdUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764390159988:android:a02126ceeba3f3ae5ac321",
+        "android_client_info": {
+          "package_name": "com.uts.tv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSauy7JgLEII96KnBgwYQgTFR54GpPdUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
