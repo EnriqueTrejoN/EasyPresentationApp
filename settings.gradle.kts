@@ -24,4 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "EasyPresentationApp"
 include(":app")
- 
+include(":tv")
+include(":shared")
